@@ -1,0 +1,62 @@
+body {
+    background-color: darkgreen;
+}
+
+.homePageBackground {
+    background-color: rgba(104, 99, 99, 0.507);
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    font-family: "Papyrus";
+    color: rgb(228, 197, 62);;
+}
+
+.list {
+    background-color: rgba(194, 144, 144, 0.562);
+    height: 500px;
+}
+
+#map {
+    background-color: rgba(144, 170, 194, 0.562);
+    height: 250px;
+    padding: auto;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color:  rgba(155, 180, 96, 0.473);
+
+}
+
+.nav-tabs {
+    --bs-nav-tabs-border-color: rgb(228, 197, 62);
+    --bs-nav-tabs-link-active-border-color: rgb(228, 197, 62);
+    --bs-nav-tabs-link-hover-border-color:  rgb(228, 197, 62);
+    font-family: "Papyrus";
+}
+
+.nav {
+    --bs-nav-link-hover-color: rgb(228, 197, 62);
+    --bs-nav-link-color: rgb(228, 197, 62);
+    --bs-nav-tabs-link-active-color: orange;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.description {
+    height: 200px;
+    width: 200px;
+}
+
+.personal-details {
+    height: 200px;
+    width: 200px;
+}
+
+.social-media {
+    height: 200px;
+    width: 200px;
+}

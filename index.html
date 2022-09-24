@@ -2,10 +2,19 @@
 <html>
     <head>
         <title>Luna</title>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="3rd-party/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="3rd-party/leaflet.css">
+        <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" /> -->
+        <link rel="stylesheet" href="main.css">
 
-        <script defer src="./3rd-party/oneko.js"></script>
-       
+
+        <!-- <script defer src="./3rd-party/oneko.js"></script> -->
+        <script defer src="3rd-party/leaflet.js"></script>
+        <!-- <script defer src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js" integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script> -->
+        <script defer src="main.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
     </head>
     <body>
@@ -13,10 +22,24 @@
             <h1>This is me - LUNA</h1>
         </div>
         <div class = "list">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" >Despre mine</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galery.html">Sunt o rasfatata</a>
+                </li>
+            </ul>
+            <div class = "info">
+                <div class="description "></div>
+                <div class="personal-details "></div>
+                <div class="social-media "></div>
+            </div>
+              
 
         </div>
         
-        <div class = "map">
+        <div id = "map">
 
         </div>
         
