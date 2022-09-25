@@ -1,0 +1,42 @@
+.tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.galery {
+    background-color: rgba(194, 144, 144, 0.562);
+    height: 500px;
+    padding: 50px;
+}
+
+.calendar {
+    background-color: rgba(170, 192, 108, 0.562);
+    height: 500px;
+    padding: 50px;
+}
+
+
+.articles {
+    background-color: rgba(194, 144, 144, 0.562);
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-shadow: 2px 2px 5px rgb(112, 99, 27);
+}
+.btn-outline-warning {
+    --bs-btn-hover-color: rgb(4, 107, 30);
+    --bs-btn-active-color:  rgb(4, 107, 30);
+    font-weight: bold;
+}
+
+
