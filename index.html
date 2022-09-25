@@ -3,15 +3,12 @@
     <head>
         <title>Luna</title>
         <link rel="stylesheet" href="3rd-party/bootstrap.min.css">
-        
         <link rel="stylesheet" href="3rd-party/leaflet.css">
-        <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" /> -->
         <link rel="stylesheet" href="main.css">
 
 
         <!-- <script defer src="./3rd-party/oneko.js"></script> -->
         <script defer src="3rd-party/leaflet.js"></script>
-        <!-- <script defer src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js" integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script> -->
         <script defer src="main.js"></script>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,22 +24,53 @@
                     <a class="nav-link active" aria-current="page" >Despre mine</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="galery/galery.html">Sunt o rasfatata</a>
+                    <a class="nav-link" href="galery/secondPage.html">Sunt o rasfatata</a>
                 </li>
             </ul>
             <div class = "info">
-                <div class="description "></div>
-                <div class="personal-details "></div>
-                <div class="social-media "></div>
+                    <div class="description ">
+                        <div class="card-header">Descriere</div>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                <div class="personal-details ">
+                    <table class="table table-hover">
+                        <tbody>
+                            <tr>
+                            <th scope="row">Varsta</th>
+                            <td colspan="2">3 ani</td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Gen</th>
+                            <td colspan="2">feminin</td>
+                            <td></td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Rasa</th>
+                            <td colspan="2">europeana</td>
+                            <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="social-media">
+                    <div class="card-body">
+                        <h5 class="card-title">Adresa</h5>
+                        <p class="card-text">Bucuresti, Romania</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Social media</h5>
+                        <a class="social-media-icon social-media-instagram"  href="https://twitter.com/SpaceX">
+                            <img src="3rd-party/image/instagram.png">
+                        </a>
+                    </div>
+                </div>
             </div>
-              
-
         </div>
         
-        <div id = "map">
-
-        </div>
-        
-
+        <div id = "map"></div>
+       
     </body>
 </html>
