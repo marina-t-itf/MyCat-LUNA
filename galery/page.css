@@ -5,20 +5,17 @@
     padding: 50px;
 }
 
-.galery {
-    background-color: rgba(194, 144, 144, 0.562);
-    height: 500px;
-    padding: 50px;
+.card {
+    font-family: "Papyrus";
+    color: rgb(228, 197, 62);
+    font-size: 20px;
 }
 
-.calendar {
-    background-color: rgba(170, 192, 108, 0.562);
-    height: 500px;
-    padding: 50px;
+.card-header {
+    font-size: 25px;
 }
 
 .articles {
-    background-color: rgba(194, 144, 144, 0.562);
     height: 600px;
     display: flex;
     flex-direction: row;

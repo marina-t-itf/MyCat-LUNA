@@ -1,0 +1,22 @@
+.popup {
+    width: 800px;
+    height: 800px;
+    background-color: rgba(41, 78, 67, 0.966);
+    font-family: "Papyrus";
+    color: rgb(228, 197, 62);
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -400px;
+    margin-left: -400px;
+    border-radius: 20px;
+    display: none;
+}
+
+.closeButton {
+    padding: 10px 20px 10px 10px;
+    font-size: 40px;
+    right: 10px;  
+    position: absolute;
+}

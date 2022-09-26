@@ -9,15 +9,25 @@ body {
     display: flex;
     align-items: flex-end;
     font-family: "Papyrus";
-    color: rgb(228, 197, 62);;
+    color: rgb(228, 197, 62);
 }
 
 .list {
     height: 500px;
 }
 
+.mapBox {
+    display: flex;
+    flex-direction: row-reverse;
+
+
+}
 #map {
     height: 250px;
+    width: 250px;
+    bottom: 60px;
+    right: 60px;
+    border-radius: 15px;
 }
 
 .nav-tabs {
@@ -48,6 +58,7 @@ body {
     font-family: "Papyrus";
     text-align: center;
     padding: 20px;
+    font-size: 20px;
 }
 
 .personal-details {
@@ -56,6 +67,7 @@ body {
     width: 400px;
     padding: 20px;
     font-family: "Papyrus";
+    font-size: 20px;
 }
 
 .social-media {
@@ -64,6 +76,7 @@ body {
     width: 400px;
     text-align: center;
     font-family: "Papyrus";
+    font-size: 20px;
 }
 
 .social-media-icon>img {
