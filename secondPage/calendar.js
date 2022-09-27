@@ -13,7 +13,7 @@ let createCalendar = function(year, month) {
     for( let i = 0; i < 12; i++) {
         
         if( mon === i) {
-            monthName.innerHTML = monthNameArray[i];
+            monthName.innerHTML = monthNameArray[i] +'  '+ globalSelectedYear;
         }
     }
         

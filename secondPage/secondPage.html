@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="popup.css">
 
         <script defer src="../3rd-party/moment.min.js"></script>
-        <script defer src="Popup.js"></script>
+        <script defer src="popup.js"></script>
         <script defer src="calendar.js"></script>
 
     </head>
@@ -38,13 +38,14 @@
                     <div class="card-header">Calendar</div>
                     <div class="card-body">
                         <div class="calendarButton">
-                            <button onclick = onPreviewButtonClick() type="button" class="btn btn-outline-warning previewButton">preview</button>
-                        
-                            <div class="monthName"> 
+                            <div>
+                                <button onclick = onPreviewButtonClick() type="button" class="btn btn-outline-warning previewButton">preview</button>
                             </div>
-                        
-                            <button onclick = onNextButtonClick() type="button" class="btn btn-outline-warning nextButton">next</button>
-                        </div> 
+                            <div class="monthName"></div>
+                            <div>
+                                <button onclick = onNextButtonClick() type="button" class="btn btn-outline-warning nextButton">next</button>
+                            </div> 
+                        </div>
                 
                         <div id="calendar"></div>
                         
