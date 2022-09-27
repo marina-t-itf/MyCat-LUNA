@@ -5,25 +5,21 @@
     padding: 50px;
 }
 
-.card {
-    font-family: "Papyrus";
-    color: rgb(228, 197, 62);
-    font-size: 20px;
-}
-
-.card-header {
-    font-size: 25px;
-}
-
-.articles {
+.calendar>div {
+    width: 600px;
     height: 600px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
+    margin-top: 50px;
+    margin-right: 30px;
+    text-align: center;
 }
 
-button {
+#calendar>table {
+    height: 500px;
+    width: 550px;
+
+}
+
+.homeButton {
     position: fixed;
     bottom: 20px;
     right: 20px;

@@ -8,10 +8,14 @@
         <link rel="stylesheet" href="page.css">
         <link rel="stylesheet" href="popup.css">
 
-        <script defer src="secondPage.js"></script>
+        <script defer src="../3rd-party/moment.min.js"></script>
+        <script defer src="Popup.js"></script>
+        <script defer src="calendar.js"></script>
 
     </head>
     <body>
+
+        
         <div class="tiles">
             <div class="galery">
                 <div class="card bg-transparent border-warning mb-3"  style="max-width: 18rem;">
@@ -30,18 +34,29 @@
                 </div>
             </div>
             <div class="calendar">
-                <div class="card bg-transparent border-warning mb-3"  style="max-width: 18rem;">
+                <div class="card bg-transparent border-warning mb-3"  style="max-width: 600px;" >
                     <div class="card-header">Calendar</div>
                     <div class="card-body">
-                        <h5 class="card-title">Warning card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="calendarButton">
+                            <button onclick = onPreviewButtonClick() type="button" class="btn btn-outline-warning previewButton">preview</button>
+                        
+                            <div class="monthName"> 
+                            </div>
+                        
+                            <button onclick = onNextButtonClick() type="button" class="btn btn-outline-warning nextButton">next</button>
+                        </div> 
+                
+                        <div id="calendar"></div>
+                        
+                        <!-- <h5 class="card-title">Warning card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                     </div>
                 </div>
             </div>
         </div>
         
         <div class = "articles">
-            <div class="card bg-transparent border-warning mb-3"  style="max-width: 18rem;">
+            <!-- <div class="card bg-transparent border-warning mb-3"  style="max-width: 18rem;">
                 <div class="card-header">Beneficii</div>
                 <div class="card-body">
                     <h5 class="card-title">Beneficiile de a avea o pisica</h5>
@@ -54,7 +69,7 @@
                     <h5 class="card-title">Ce trebuie sa stii daca vrei sa detii o pisica</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
-            </div>
+            </div> -->
             <div class="card bg-transparent border-warning mb-3"  style="max-width: 18rem;">
                 <div class="card-header">Grafic</div>
                 <div class="card-body">
@@ -69,7 +84,7 @@
             <div>poze</div>
         </div>
         
-        <div class="button">
+        <div class="homeButton">
             <a href="https://marina-t-itf.github.io/MyCat-LUNA/"> 
                 <button type="button"  class="btn btn-outline-warning">Inapoi la prima pagina</button>
             </a>
