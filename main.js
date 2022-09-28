@@ -1,3 +1,9 @@
+
+let musicPlay = function() {
+    document.getElementById('audioID').play();
+}   
+
+
 // crearea unei harti in JS
 let map = L
     .map('map')

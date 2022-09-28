@@ -13,22 +13,29 @@
         <script defer src="main.js"></script>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 
     </head>
     <body>
+
+        <audio  id="audioID" loop>
+           <source src="3rd-party/CatPurring.mp3" type="audio/mpeg">
+        </audio>
+        
+
         <div class = "homePageBackground">
             <h1>This is me - LUNA</h1>
         </div>
         <div class = "list">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" >Despre mine</a>
+                    <a class="nav-link active" aria-current="page" onclick = musicPlay() >Despre mine</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="secondPage/secondPage.html">Sunt o rasfatata</a>
                 </li>
             </ul>
-            <div class = "info">
+            <div class = "info" >
                     <div class="description ">
                         <div class="card-header">Descriere</div>
                         <div class="card-body">
