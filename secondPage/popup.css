@@ -19,4 +19,5 @@
     font-size: 40px;
     right: 10px;  
     position: absolute;
+    cursor: url('../3rd-party/image/cursor.cur'), auto;
 }

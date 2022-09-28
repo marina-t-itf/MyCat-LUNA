@@ -1,5 +1,5 @@
 let popupCloseButton = document.querySelector('.closeButton>span');
-let showPopup = document.querySelector('.galery');
+let showPopup = document.querySelector('.gallery');
 
 let popupClose = function() {
     let popup = document.querySelector('.popup');

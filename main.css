@@ -19,12 +19,14 @@ a {
 }
 
 
+
 .nav-tabs {
     --bs-nav-tabs-border-color: rgb(228, 197, 62);
     --bs-nav-tabs-link-active-border-color: rgb(228, 197, 62);
     --bs-nav-tabs-link-hover-border-color:  rgb(228, 197, 62);
     --bs-nav-tabs-link-active-bg: none;
     font-family: "Papyrus";
+    font-size: 20px;
 }
 
 .nav {
@@ -38,9 +40,8 @@ a {
     flex-direction: row;
     justify-content: space-around;
     padding: 30px;
-
+    cursor: default;
 }
-
 
 .table {
     --bs-table-color: rgb(228, 197, 62);
@@ -48,10 +49,21 @@ a {
     --bs-table-border-color: rgb(228, 197, 62);
 }
 
-.card-header {
-    font-size: 25px;
-}
+.card {
+    font-family: "Papyrus";
+    color: rgb(228, 197, 62);
+    font-size: 20px;
+    --bs-card-bg: #00000075;
+    cursor: default;
 
+}
+.card-header {
+    font-size: 30px;
+}
+.card-body {
+    padding: 40px 10px 10px 20px;
+
+}
 
 .articles {
     display: flex;
@@ -62,19 +74,14 @@ a {
 .benefits,.interesting {
     margin: 30px;
 }
-.card {
-    font-family: "Papyrus";
-    color: rgb(228, 197, 62);
-    font-size: 20px;
-    
-}
+
 .description {
     color: rgb(228, 197, 62);
     height: 300px;
     width: 400px;
     font-family: "Papyrus";
     text-align: center;
-    padding: 40px 15px 15px 15px;
+    padding: 30px 15px 15px 15px;
     font-size: 20px;
 }
 
@@ -84,11 +91,15 @@ a {
     width: 400px;
     padding: 20px;
     font-family: "Papyrus";
-    font-size: 20px;
+    
+}
+.detailRow {
+    font-size: 25px;
+    text-align: center;
 }
 
 .social-media {
-    color: rgb(228, 197, 62);
+    color: rgb(228, 198, 62);
     height: 300px;
     width: 400px;
     text-align: center;
@@ -101,9 +112,7 @@ a {
     width: 40px;
 }
 
-.card-body {
-    padding: 20px;
-}
+
 #map {
     height: 250px;
     width: 250px;
@@ -117,9 +126,6 @@ a {
 
 }
 
-/* .bg-transparent {
-    background-color:  #00000075;
-} */
 
 @media only screen and (max-width: 1340px) {
     .benefits,.interesting {
