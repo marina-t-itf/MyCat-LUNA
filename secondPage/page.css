@@ -62,3 +62,9 @@ td {
     width: 750px;
     left: 50px;
 }
+.btn {
+    cursor: url('../3rd-party/image/cursor.cur'), auto;
+}
+button {
+    cursor: url('../3rd-party/image/cursor.cur'), auto;
+}
