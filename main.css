@@ -7,10 +7,13 @@ body {
 
 .homePageBackground {
     height: 300px;
+    width: 700px;
     display: flex;
     align-items: flex-end;
     font-family: "Papyrus";
+    text-align: center;
     color: rgb(228, 197, 62);
+    
 }
 
 
@@ -18,7 +21,17 @@ a {
     cursor: url('3rd-party/image/cursor.cur'), auto;
 }
 
-
+h1 {
+    padding: 0 0 30px 120px;
+    text-shadow:    0 0 4px rgb(255, 102, 0),
+                    0 0 10px rgb(255, 102, 0),
+                    /* 0 0 18px rgb(255, 102, 0),
+                    0 0 38px rgb(236, 191, 108),
+                    0 0 73px rgb(236, 191, 108), */
+                    0 0 80px rgb(236, 191, 108),
+                    /* 0 0 94px rgb(236, 191, 108), */
+                    0 0 140px rgb(236, 191, 108);
+}
 
 .nav-tabs {
     --bs-nav-tabs-border-color: rgb(228, 197, 62);
@@ -55,10 +68,19 @@ a {
     font-size: 20px;
     --bs-card-bg: #00000075;
     cursor: default;
+    
 
 }
 .card-header {
     font-size: 30px;
+    text-shadow:    0 0 4px rgb(255, 102, 0),
+                    0 0 10px rgb(255, 102, 0),
+                    /* 0 0 18px rgb(255, 102, 0),
+                    0 0 38px rgb(236, 191, 108),
+                    0 0 73px rgb(236, 191, 108), */
+                    0 0 80px rgb(236, 191, 108),
+                    0 0 94px rgb(236, 191, 108),
+                    0 0 140px rgb(236, 191, 108);
 }
 .card-body {
     padding: 40px 10px 10px 20px;

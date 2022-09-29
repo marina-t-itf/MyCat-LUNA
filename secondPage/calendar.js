@@ -26,12 +26,19 @@ let createCalendar = function(year, month) {
 
     // <td> with actual dates
     for(; d.getMonth() === mon ;){
-        table += '<td class = dayCell>' + d.getDate() + '</td>';
+        if (d.getDate() === 7 || d.getDate() === 24 || d.getDate() === 13 ) {
+            table += '<td class = dayCell>' + ' <div title="Ocupata! Ma joc.">' + d.getDate() + '</div>' + '</td>' ;
+        } else {
+            table += '<td class = dayCell>' + d.getDate() + '</td>';
+        }
+       
+  
         if (getDay(d) % 7 === 6) { // sunday, last day of week - newline
             table += '</tr><tr>';
         }
-        d.setDate(d.getDate() + 1);
+        d.setDate(d.getDate() + 1);  
     }
+
 
     // add spaces after last days of month for the last row
     // 29 30 31 * * * *
@@ -41,6 +48,7 @@ let createCalendar = function(year, month) {
         }
     }
 
+    
     // close the table
     table += '</tr></table>';
 
@@ -55,7 +63,6 @@ let getDay = function(date) { // get day number from 0 (monday) to 6 (sunday)
 }
 
 createCalendar(globalSelectedYear, globalSelectedMonth);
-
 
 let onPreviewButtonClick = function() {
     let prevButton = document.querySelector('previewButton');

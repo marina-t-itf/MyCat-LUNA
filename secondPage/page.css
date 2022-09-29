@@ -11,7 +11,7 @@
     margin-top: 50px;
     margin-right: 30px;
     text-align: center;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 #calendar>table {
@@ -77,4 +77,45 @@ td {
 }
 button {
     cursor: url('../3rd-party/image/cursor.cur'), auto;
+}
+
+.dayCell>div {
+    color: rgb(255, 136, 0);
+    cursor: url('../3rd-party/image/cursor.cur'), auto;
+    border-radius: 2rem;
+    box-shadow: 0 0 .2rem rgb(250, 206, 125),
+                /* 0 0 .2rem #fff, */
+                0 0 2rem rgb(236, 191, 108),
+                0 0 0.8rem rgb(243, 184, 74),
+                /* 0 0 2.8rem rgb(236, 191, 108), */
+                inset 0 0 1.3rem rgb(236, 191, 108);
+    
+}
+
+@media only screen and (max-width: 1205px) {
+    .fotoGalley {
+        height: 250px;
+        width: 350px;
+        cursor: url('../3rd-party/image/cursor.cur'), auto;
+    }
+    .videoGalley {
+        height: 250px;
+        width: 350px;
+        cursor: url('../3rd-party/image/cursor.cur'), auto;
+    }
+      
+} 
+
+@media only screen and (max-width: 1105px) {
+    .tiles {
+        flex-direction: column;
+    }
+    .gallery {
+        height: 500px;
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+   
 }
