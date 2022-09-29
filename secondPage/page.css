@@ -46,6 +46,9 @@ td {
     font-weight: bold;
 }
 
+.gallery {
+    height: 700px;
+}
 .fotoGalley {
     height: 350px;
     width: 500px;
@@ -58,10 +61,17 @@ td {
 }
 
 .chart {
-    height: 350px;
+    height: 450px;
     width: 750px;
     left: 50px;
 }
+
+.chartBody {
+    height: 350px;
+    width: 750px;
+    padding: 0px;
+}
+
 .btn {
     cursor: url('../3rd-party/image/cursor.cur'), auto;
 }

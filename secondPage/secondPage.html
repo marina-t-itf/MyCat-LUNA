@@ -4,14 +4,19 @@
         <title>Luna</title>
 
         <link rel="stylesheet" href="../3rd-party/bootstrap.min.css">
+
         <link rel="stylesheet" href="../main.css">
         <link rel="stylesheet" href="page.css">
         <link rel="stylesheet" href="popup.css">
 
         <script defer src="../3rd-party/moment.min.js"></script>
+        <script defer src="../3rd-party/chart.min.js"></script>
+    
         <script defer src="popup.js"></script>
         <script defer src="calendar.js"></script>
+        <script defer src="chart.js"></script>
 
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script> -->
 
     </head>
     <body>
@@ -73,10 +78,9 @@
             </div> -->
             <div class="card bg border-warning mb-3 chart"  >
                 <div class="card-header">Grafic</div>
-                <div class="card-body">
-                    <h5 class="card-title">Statistici rase de pisici in Romania</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+                <div class="card-body chartBody">
+                    <canvas id="myChart" style="width:100%;max-width:740px" ></canvas>
+                    
             </div>
         <!-- </div> -->
 
