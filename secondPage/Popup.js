@@ -1,5 +1,5 @@
 let popupCloseButton = document.querySelector('.closeButton>span');
-let showPopup = document.querySelector('.gallery');
+let showPopup = document.querySelector('.fotoGalley');
 
 let popupClose = function() {
     let popup = document.querySelector('.popup');
@@ -14,3 +14,4 @@ let popupOpen = function() {
 }
 
 showPopup.addEventListener('click', popupOpen);
+

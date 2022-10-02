@@ -21,3 +21,8 @@
     position: absolute;
     cursor: url('../3rd-party/image/cursor.cur'), auto;
 }
+
+#carouselExampleControls {
+    margin-top: 80px;
+}
+
