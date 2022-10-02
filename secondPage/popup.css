@@ -3,6 +3,7 @@
     height: 800px;
     background-color: rgba(41, 78, 67, 0.966);
     font-family: "Papyrus";
+    font-size: 40px;
     color: rgb(228, 197, 62);
     text-align: center;
     position: fixed;
@@ -16,13 +17,34 @@
 
 .closeButton {
     padding: 10px 20px 10px 10px;
-    font-size: 40px;
+    font-size: 60px;
     right: 10px;  
     position: absolute;
     cursor: url('../3rd-party/image/cursor.cur'), auto;
 }
 
-#carouselExampleControls {
+
+/* .popupImage {
+    width: 800px;
+    height: 700px;
     margin-top: 80px;
+} */
+
+.carousel-control-prev {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.carousel-control-next {
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
+@media only screen and (max-width: 850px) {
+    .popup {
+        width: 500px;
+        height: 500px;
+        margin-top: -250px;
+        margin-left: -250px;
+      
+    }
+}

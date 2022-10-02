@@ -59,6 +59,9 @@ td {
     width: 500px;
     cursor: url('../3rd-party/image/cursor.cur'), auto;
 }
+p.card-text {
+   padding: 30px;
+}
 
 .chart {
     height: 450px;
@@ -114,8 +117,4 @@ button {
         height: 500px;
         width: 350px;
     }
-}
-
-@media only screen and (max-width: 660px) {
-   
 }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Luna</title>
+
+        <link rel="stylesheet" href="3rd-party/bootstrap.min.css">
+
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="./secondPage/page.css">
+        <link rel="stylesheet" href="./secondPage/popup.css">
+
+        <script defer src="./3rd-party/oneko.js"></script>
+        <script defer src="3rd-party/moment.min.js"></script>
+        <script defer src="3rd-party/chart.min.js"></script>
+    
+        <script defer src="./secondPage/Popup.js"></script>
+        <script defer src="./secondPage/calendar.js"></script>
+        <script defer src="./secondPage/chart.js"></script>
+
+       
+
+    </head>
+    <body>
+        <div class="tiles">
+            <div class="gallery">
+                <div class="card bg border-warning mb-3 fotoGalley" style="max-width: 28rem;">
+                    <div class="card-header">Galerie foto</div>
+                    <div class="card-body-gallery">
+                        <!-- <h5 class="card-title">Warning card title</h5> -->
+                        <p class="card-text">Daca dati click aici, ma veti vedea cum am pozat in diferite ipostaze.</p>
+                        <p class="card-text">O mica galerie foto care descrie personalitatea mea mai bine decat orice cuvant.</p>
+                    </div>
+                </div>
+                <div class="card bg border-warning mb-3 videoGalley" style="max-width: 28rem;">
+                    <div class="card-header">Galerie video</div>
+                    <div class="card-body-gallery">
+                        <!-- <h5 class="card-title">Warning card title</h5> -->
+                        <p class="card-text">V-am pregatit si doua filmulete cu mine pe care le puteti vedea mai jos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="calendar">
+                <div class="card bg border-warning mb-3"  style="max-width: 600px;" >
+                    <div class="card-header">Calendar</div>
+                    <div class="card-body">
+                        <div class="calendarButton">
+                            <div>
+                                <button onclick = onPreviewButtonClick() type="button" class="btn btn-outline-warning previewButton">precedenta</button>
+                            </div>
+                            <div class="monthName"></div>
+                            <div>
+                                <button onclick = onNextButtonClick() type="button" class="btn btn-outline-warning nextButton">urmatoarea</button>
+                            </div> 
+                        </div>
+                
+                        <div id="calendar"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card bg border-warning mb-3 chart"  >
+            <div class="card-header">Grafic</div>
+            <div class="card-body chartBody">
+                <canvas id="myChart" style="width:100%;max-width:740px" ></canvas>
+                
+        </div>
+
+        <div class="popup">
+            <div class="closeButton"><span> x </span></div>
+            <div>Foto</div>
+            <div class="popupImage"></div>
+                   
+            <button class="carousel-control-prev" type="button" onclick="onPreviewClick()" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" ></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" onclick="onNextClick()" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" ></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+        
+        <div class="homeButton">
+            <a href="https://marina-t-itf.github.io/MyCat-LUNA/"> 
+                <button type="button"  class="btn btn-outline-warning">Inapoi la prima pagina</button>
+            </a>
+        </div>
+
+    </body>
+</html>
