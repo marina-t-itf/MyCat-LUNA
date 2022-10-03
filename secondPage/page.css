@@ -28,6 +28,16 @@ td {
 
 }
 
+::-webkit-scrollbar {
+    background-color:#0f39238c ;
+}
+::-webkit-scrollbar-button {
+    background-color:#175f2d69 ;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #0f3923
+}
+
 .calendarButton {
     display: flex;
     flex-direction: row;
@@ -58,6 +68,7 @@ td {
     height: 350px;
     width: 500px;
     cursor: url('../3rd-party/image/cursor.cur'), auto;
+    
 }
 p.card-text {
    padding: 30px;
@@ -106,7 +117,9 @@ button {
         width: 350px;
         cursor: url('../3rd-party/image/cursor.cur'), auto;
     }
-      
+    p.card-text {
+        padding: 5px;
+     }
 } 
 
 @media only screen and (max-width: 1105px) {
@@ -117,4 +130,20 @@ button {
         height: 500px;
         width: 350px;
     }
+    p.card-text {
+        padding: 5px;
+     }
+     
+}
+
+.videoContents {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+
+video {
+    padding: 15px;
+    width: 420px;
+    height: 280px;
 }
