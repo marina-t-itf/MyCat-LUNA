@@ -6,7 +6,7 @@ body {
 
 
 .homePageBackground {
-    height: 300px;
+    height: 450px;
     /* width: 700px; */
     display: flex;
     font-family: "Papyrus";
@@ -27,18 +27,19 @@ body {
     inset 0 0 1.3rem rgb(236, 191, 108);
 }
 
-/* .backgroundVideo { */
-    /* width: 100vw;
-    height: 100vh; */
-    /* object-fit: cover; */
-    /* position: fixed; */
+/* .backgroundVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
    
-/* } */
-video {
-  
+} */
+video.cover {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    min-width: 100%; 
+    min-height: 100%;
 
 }
 
@@ -49,7 +50,7 @@ a {
 
 h1 {
     position: absolute;
-    padding: 170px 0 30px 120px;
+    padding: 350px 0 20px 80px;
     text-shadow:    0 0 4px rgb(255, 102, 0),
                     0 0 10px rgb(255, 102, 0),
                     /* 0 0 18px rgb(255, 102, 0),
@@ -58,6 +59,7 @@ h1 {
                     0 0 80px rgb(236, 191, 108),
                     /* 0 0 94px rgb(236, 191, 108), */
                     0 0 140px rgb(236, 191, 108);
+    font-size: 52px;
 }
 
 .list {

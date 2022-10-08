@@ -11,7 +11,7 @@ let barColors = [
 new Chart("myChart", {
     type: "pie",
     data: {
-      labels: xValues,
+      labels: xValues ,
       datasets: [{
         backgroundColor: barColors,
         data: yValues,

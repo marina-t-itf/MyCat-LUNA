@@ -59,19 +59,20 @@ td {
 .gallery {
     height: 700px;
 }
+
 .fotoGalley {
-    height: 350px;
-    width: 500px;
+    height: 250px;
+    width: 800px;
     cursor: url('../3rd-party/image/cursor.cur'), auto;
 }
 .videoGalley {
-    height: 350px;
-    width: 500px;
+    height: 480px;
+    width: 900px;
     cursor: url('../3rd-party/image/cursor.cur'), auto;
     
 }
 p.card-text {
-   padding: 30px;
+   padding: 10px 0 10px 30px;
 }
 
 .chart {

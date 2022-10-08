@@ -3,6 +3,10 @@ let musicPlay = function() {
     document.getElementById('audioID').play();
 }   
 
+let musicStop = function() {
+    document.getElementById('audioID').pause();
+}
+
 
 // crearea unei harti in JS
 let map = L
