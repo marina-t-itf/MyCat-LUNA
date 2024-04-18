@@ -1,4 +1,4 @@
-let globalSelectedYear = 2022;
+let globalSelectedYear = 2024;
 let globalSelectedMonth = new Date().getMonth() + 1;
 
 let createCalendar = function(year, month) {
